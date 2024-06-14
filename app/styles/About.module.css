@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem auto;
+    background-image: url(../../public/sky.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.main {
+    margin-top: 10rem;
+    background-color: bisque;
+    border-radius: 7px;
+    padding: 2%;
+}
+
+
+
+/* Heading styling */
+.heading {
+    font-size: 1.5rem;
+    /* 2xl */
+    padding-bottom: 0.5rem;
+    /* 2 */
+}
+
+/* Paragraph styling */
+.paragraph {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Utility classes */
+.text_center {
+    text-align: center;
+}
+
+.text_gray {
+    color: #6b7280;
+    /* Gray color */
+}
+
+
+.font_xl {
+    font-size: 50px;
+}
+
+.font_p {
+    font-size: 40px;
+}
+
+.margin {
+    margin-left: 50%;
+    margin-right: auto;
+}
